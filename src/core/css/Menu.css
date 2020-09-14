@@ -1,0 +1,124 @@
+.MenuHeader {
+  background-color: #ec2533;
+  height: 60px;
+  color: white;
+  width: 100%;
+}
+.Menu-Row {
+  margin-top: 15px;
+}
+.text {
+  font-size: 10px;
+  width: 50px;
+}
+.MenuPhoneNumber {
+}
+.MenuImg {
+  height: 20px;
+}
+
+.MenuMyAcc {
+  color: white;
+  font-size: 10px;
+}
+
+.MenuMyAcc:hover {
+  color: white;
+}
+@media only screen and (max-width: 900px) {
+  .Menu-display {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .Sidemenu {
+    display: none;
+  }
+}
+
+.button-size {
+  height: 20px;
+  float: right;
+}
+
+.sidebar2-bottom {
+  /* margin-bottom: 100px;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-bottom-color: black;
+  border-color: white; */
+}
+.bm-burger-button {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+.sideBarHeight {
+  height: 20px;
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+.main-Menu {
+  height: auto;
+  width: 100%;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #f9f9f9;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  width: 300px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: black;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: white;
+}

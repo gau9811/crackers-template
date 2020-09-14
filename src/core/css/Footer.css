@@ -1,0 +1,42 @@
+.Footer-category {
+  text-decoration: underline;
+  color: white;
+}
+
+.Footer-Main-Div {
+  background-color: red;
+  text-align: center;
+}
+
+.row {
+  margin: auto;
+}
+
+.downArraowUp {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 500px) {
+  .footer-main-img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .footerDisplay1 {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .FooterDisplay2 {
+    display: none;
+  }
+  .footer-company-title {
+    margin-left: 100px;
+  }
+}

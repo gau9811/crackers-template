@@ -1,0 +1,126 @@
+.banner1 {
+  width: 300px;
+  height: auto;
+  background-color: #eeeeee;
+  background: #eeeeee;
+  transition: background 0.5s ease;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+  .banner1 {
+    width: 200px;
+    height: 200px;
+    background-color: #eeeeee;
+    background: #eeeeee;
+    transition: background 0.5s ease;
+  }
+}
+.banner1:hover {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.banner2 {
+  height: 200px;
+  background-color: #eeeeee;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  background: #eeeeee;
+  transition: background 0.5s ease;
+}
+.banner2:hover {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.banner3 {
+  width: 100%;
+  height: auto;
+  background-color: #eeeeee;
+  background: #eeeeee;
+  transition: background 0.5s ease;
+}
+
+.banner3:hover {
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.card-img-top {
+  height: 300px;
+  width: 300px;
+  background-color: #f2f2f4;
+}
+.bottomBannerdiv {
+  width: 100%;
+}
+.crackersCartBottom {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.d-block.w-100 {
+  margin-top: 50px;
+}
+.testimonialdiv {
+  text-align: center;
+}
+@media only screen and (max-width: 500px) {
+  .d-block.w-100 {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .BrandsBack {
+    height: 50px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+  }
+}
+
+.featuredbanner1 {
+  background-color: #f4f4f4;
+}
+.BrandsBack {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.BrandsBackImg {
+  width: 160px;
+}
+
+.text-home {
+  width: 50px;
+}
+
+.Top-Carousel {
+  margin-top: 75px;
+}
+
+@media only screen and (max-width: 500px) {
+  .Top-Carousel {
+    margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .featuredDisplay1 {
+    display: none;
+  }
+}
+.featuredbanner1 {
+  height: "100px";
+}
+@media only screen and (max-width: 500px) {
+  .featuredDisplay2 {
+    display: none;
+  }
+  .featuredbanner1 {
+    background-color: #f2f2f4;
+  }
+}

@@ -1,0 +1,14 @@
+.Description-img {
+  height: 400px;
+  width: 400px;
+  background-color: #f1f1f1;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 500px) {
+  .Description-img {
+    height: auto;
+    width: 100%;
+    background-color: #f1f1f1;
+    margin-top: 50px;
+  }
+}
